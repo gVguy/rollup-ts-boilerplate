@@ -6,7 +6,7 @@ document.body.innerHTML = `
 <h1>Demo page</h1>
 <p>This page can be used for development of your library.</p>
 <p>Run <code>npm run dev</code> to serve this page.<br>Scripts for this page will be bundled from <code>/demo/demo.ts</code>, where the library is imported.<br>Live reloading enabled.</p>
-<p>Run <code>npm run build</code> to build your library.<br>By default, output files will go to <code>/dist/</code> folder in project root.<br>Type definitions will be emitted and bundled alongside the main bundle.<br><code>package.json</code> will be automaticlly updated with the filenames of build output.<br>Costumize your output by modifying constants in <code>/rollup.config.js</code> in project root.</p>
+<p>Run <code>npm run build</code> to build your library.<br>By default, output files will go to <code>/dist/</code> folder in project root.<br>Type definitions will be emitted and bundled alongside the main bundle.<br><code>package.json</code> will be automaticlly updated with the filenames of build output.</p>
 <p><b>To get started</b>:
   <ul>
     <li>whipe everything from the <code>/src/</code> directory</li>
