@@ -9,6 +9,7 @@ Live reloading enabled.
 
 `npm run build` to build your library.  
 By default, output files will go to `/dist/` folder in project root.  
+By default, source code will be bundled to 3 formats: iife, cjs and esm.  
 Type definitions will be emitted and bundled alongside the main bundle.  
 `package.json` will be automaticlly updated with the filenames of build output.
 
