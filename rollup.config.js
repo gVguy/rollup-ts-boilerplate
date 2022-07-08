@@ -28,6 +28,7 @@ packageJson.browser = `${OUT_DIR}/${OUT_FILE_NAME}.esm.js`
 packageJson.module = `${OUT_DIR}/${OUT_FILE_NAME}.esm.js`
 packageJson.unpkg = `${OUT_DIR}/${OUT_FILE_NAME}.min.js`
 packageJson.types = `${OUT_DIR}/${OUT_FILE_NAME}.d.ts`
+packageJson.files = [OUT_DIR]
 fs.writeFileSync('package.json', JSON.stringify(packageJson, null, 2))
 
 // CLEAN OUT DIR BEFORE BUILD
